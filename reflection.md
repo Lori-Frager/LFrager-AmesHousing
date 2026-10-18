@@ -36,8 +36,18 @@ Write the code using Python to give me the summary statistics for the following 
 ***Year Built, Gr Liv Area, Bedroom AbvGr, TotRms AbvGr, Garage Area*** using the AmesHousingClean.csv data set."  I cut
 back on the number of features since all of the features were overwhelming. 
 
-Codex saved over the information it gathered the previous night and gave me the new updated information for the summary. If I 
-would have needed that information that I did on the 13th, I would have lost it, since I did not indicate
+        Year Built  Gr Liv Area  Bedroom AbvGr  TotRms AbvGrd  Garage Area
+count  2413.000000  2413.000000    2413.000000    2413.000000  2413.000000
+mean   1969.436386  1477.410278       2.854538       6.366763   461.254041
+std      29.487943   483.061380       0.813430       1.519145   201.675726
+min    1872.000000   334.000000       0.000000       2.000000     0.000000
+25%    1953.000000  1100.000000       2.000000       5.000000   315.000000
+50%    1971.000000  1431.000000       3.000000       6.000000   472.000000
+75%    1998.000000  1724.000000       3.000000       7.000000   576.000000
+max    2010.000000  4316.000000       6.000000      13.000000  1488.000000
+
+Codex saved over the information it gathered the previous night and gave me the new updated information for the summary. 
+If I would have needed that information that I did on the 13th, I would have lost it, since I did not indicate
 for Codex to save the code with a new file name.
 
 
